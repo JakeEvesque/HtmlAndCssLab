@@ -1,0 +1,190 @@
+body {
+    width: 1290px;
+    margin: auto;
+}
+
+.headerTable {
+    width: 100%;
+}
+
+
+.nameLogo {
+    border-style: solid;
+    display: inline-block;
+    padding: 10px;    
+}
+
+.nameLogo span {
+    font-size: 2em;
+    vertical-align: middle;
+    height: 100%;
+    color: crimson;
+}
+
+.nameLogo img {
+    height: 45px;
+    vertical-align: middle;
+}
+
+
+.navDiv {
+    display: inline-block;
+    text-align: right;
+}
+
+
+.navbar {
+    text-align: right; 
+    font-weight: bold;
+    text-align: right;
+    font-size: x-large;
+}
+
+.navbar a {
+    color: black;
+    font-size: large;
+    margin: 1em;
+    text-align: right;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+
+.navbar a:hover {
+    border-bottom-color: crimson;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+}
+
+.relative {
+    position: relative;
+}
+
+
+
+.resumeImage {
+    position: relative;
+    left: 4em;
+    width: 300px;
+}
+
+.titleText {
+    position: relative;
+    left: -2em;
+    color:crimson;
+    text-align: center;
+    top: -6em;
+}
+
+.titleLine1 {
+    color:crimson;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.titleLine2 {
+    color:black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.aboutDiv {
+    background-color: aliceblue;
+    padding: 2em;
+    font-size: 2em;
+    
+}
+
+.aboutMeDiv {
+    vertical-align: top;
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    margin-right: 4em;
+    font-size: 1em;
+}   
+
+.aboutTextDiv {
+    display: inline-block;
+    width: 50%;
+    padding: 1em;
+    border-style: solid;
+    background-color: white;
+    font-size: 1em;
+}
+
+.experienceDiv {
+    padding: 3em;
+}
+
+.experienceDiv div {
+    width: 40%;
+    padding:2em;
+    display: inline-block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.workDiv div {
+    display: inline-block;
+    position: relative;
+}
+
+.workDiv div img {
+    padding: 1px;
+    width: 400px;
+}
+
+.workDiv div h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 20%;
+    visibility: hidden;
+}
+
+.workDiv div:hover img {
+    opacity: .2;
+}
+
+
+.workDiv div:hover h1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 20%;
+    visibility: visible;
+}
+
+.contactDiv .contactInfo {
+    float: right;
+    text-align: right;
+}
+
+.contactDiv .contactTitle {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.contactDiv .contactInput {
+    float: right;
+
+}
+
+.contactInput input, .contactInput textarea {
+    display: block;
+    width: 800px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: cornsilk
+
+}
+
+#submit {
+    width: 100px;
+    float: right;
+    background-color: crimson;
+    color: white;
+}
